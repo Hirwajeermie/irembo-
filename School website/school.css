@@ -1,0 +1,103 @@
+.hello{
+    background-color: #9C5518;
+    height: 100px auto 100px auto;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+
+nav h1{
+    color: white;
+    font-size: 30px;
+    padding: 0%;
+    list-style: upper-roman;
+
+}
+
+nav ul li{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 15px 20px;
+    font-size: 20px;
+ }
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ h2{
+    width: 10%;
+    padding-left: 310px;
+    padding-top: 30px;
+    font-size: 30px;
+ }
+
+ hr {
+    color: black;
+    width: 900px; 
+}
+
+.byeee{
+    padding-left: 310px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 2;
+}
+
+.takeee{
+    padding-right: 310px;
+    font-size: 30px;
+}
+
+.moveee{
+    padding-left: 310px;
+    font-size: 800px;
+    
+}
+
+.neweee{
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #9C5518 ;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.neweee:hover{
+    background-image: rgb(216, 21, 54);
+    color: rgb(63, 17, 17);
+}
+
+.timeee{
+    background-color: #9C5518;
+    height: 100px auto 100px auto;
+    
+}
+
+.ser{
+    padding-left: 310px;
+    font-size: 20px;
+}
+
+.abou{
+    padding-left: 68px;
+    color: white;
+}
+
+.pro{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.cameee{
+    padding: 20px;
+    color: white;
+}
