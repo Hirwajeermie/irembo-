@@ -1,0 +1,129 @@
+body{
+    font-family: var(--sm-font);
+}
+
+.btn:not(.nav-btns button){
+    background-color: #ffff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: rgb(10, 77, 84);
+    color: #ffff;
+    border-color: rgb(0, 0, 0);
+}
+
+.active-filter-btn{
+    background-color: rgb(10, 77, 84)!important;
+    color: rgb(255, 255, 255)!important;
+    border-color: black!important;
+}
+    
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0, 0.1);
+}
+
+.navbar-brand{
+    
+}
+
+.navbar-brand span{
+    letter-spacing: px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(0,0,0, 0.05);
+}
+
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+.container-row{
+    background: url(img/pic1-removebg-preview.png)  no-repeat;
+    margin-right: 400px;
+}
+
+.carousel-inner{
+    margin-left: 20px;
+    padding-top: 200px;
+}
+
+img{
+    width: 15rem;
+    padding: 27px;
+    
+}
+
+.collection-img span{
+    top: 20px;
+    width: 50px;
+    height: 50px ;
+    border-radius: 60px;
+}
+
+.Primary-img span{
+    top: 20px;
+    right: 20px;
+}
+
+.Primary-list .btn{
+    padding: 8px 20px!important;
+}
+
+.Primary-img img{
+    transition: all 0.3s ease;
+}
+
+.Primary-img:hover img{
+    transform: scale(1.2);
+}
+
+
+#secondary {
+    min-height: 60vh;
+}
+
+.secondary-content span{
+    font-size: 50px;
+    ;
+}
+
+.secondary-content h2{
+    font-size: 60rem;
+    font-family: var(--lg--font);
+    
+}
+
+.secondary-content .btn{
+    border-color: transparent!important;
+}
+
+.imaging-blog{
+    width: 20rem;
+}
+
+.title{
+    font-size: 40px;
+}
+
+ 
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
