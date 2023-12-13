@@ -1,0 +1,68 @@
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+@media (min-width: 768px){
+    .news-input {
+        width: 50%;
+    }
+}
+
+.navbar-brand{
+    margin: 40%;
+    ;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-nav{
+    margin-left: 20px;
+    font-weight: bold;
+    padding-right: 10%;
+}
+
+.text-warning{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Lead{
+    line-height: 2;
+    font-size: 1.5rem;
+
+}
+
+h3{
+    font-family: montserrat-black;
+}
+
+.btn:hover{
+    background-color: rgb(11, 87, 91);
+}
+
+.pragraph-size{
+    font-size: 1rem;
+}
+
+.press-image{
+    width: 60%;
+    border-radius: 100%;
+}
+
+.lead{
+    font-size: 2rem;
+}
+
+.paragarph-hp{
+    font-size: 1.5rem;
+}
+
+.price{
+    font-size: 2rem;
+    
+}
+
