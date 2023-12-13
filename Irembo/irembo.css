@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins, sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Oxanium', sans-serif;
+}
+
+.poromosiyo-shyashya{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.Container{
+    padding-left: 150px ;
+    margin-top: 50px;
+}
+
+.collapse{
+    margin-left: 20px;
+}
+
+.navbar{
+    background: #0082e6;
+    height: 80;
+}
+
+.navbar-nav{
+    margin-top: 50px;
+    font-size: 15px;
+    margin-left: 250px;
+}
+
+.btn:not(.nav-btns button){
+    box-shadow: none;
+    padding: 10px 28px;
+    font-size: 15px;
+
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: #0099e8;
+
+}
+
+.btn-shaka-dosiye{
+    background-color: #0099e8;
+    padding: 10px 28px;
+    border-radius: 8px;
+    border-color: none;
+}
+
+.flag-image{
+    width: 30px;
+}
+
+.search-box{
+    background: #0099e8; 
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.ishakiro-page{
+    border-radius: 5px ;
+    border-color: none;
+}
+
+input{
+    flex: 1;
+    height: 40px;
+    width: 40rem;
+}
+
+.gushakisha-servisi{
+    align-items: center;
+    padding: 10px 370px;
+}
+
+.serivisi-shyashya{
+    padding-top: 50px;
+}
+
+.serivisi-ubukerarugengo{
+    background-color: rgb(240, 240, 240);
+    padding: 10px 28px;
+    border-color: none;
+    padding-top: 20px;
+
+}
+
+.tittle{
+    font-size: 20px;
+}
+
+.serivisi-list{
+    border-left: 1px solid #e3e3e3;
+    height: 200px;
+    margin-left: 17px;
+    bottom: 60px;
+    font-size: 14px;
+    list-style-type: none;  
+}
+
+.serivisi-listt{
+    border-left: 1px solid #e3e3e3;
+    height: 50px;
+    margin-left: 17px;
+    bottom: 60px;
+    font-size: 14px;
+    list-style-type: none;  
+}
+
+
+.serivisi-list a:hover{
+    text-decoration: underline;
+}
+
+.nav-footer{
+    list-style-type: none;
+    padding-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin: 40px;
+}
+
+.icyemezo-title{
+    background-color: rgb(240, 240, 240);
+    padding: 10px 28px;
+    border-color: none;
+    padding-top: 20px;
+   
+}
+
+.modal-content{
+    width: 300px;
+    max-width: 500px;
+    
+}
+
+.modal-body{
+    width: 100;
+    margin: 20px 20px;
+}
+
+.about-serivice{
+    padding: 20px;
+}
+.minaloc{
+    border: 1px solid #0033cf;
+    color: #0033cf;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.lang-menu{
+    display: none;
+}
